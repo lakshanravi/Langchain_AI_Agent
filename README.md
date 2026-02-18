@@ -1,16 +1,18 @@
-Gemini + LangChain AI Agent (Search + Weather Tools)
+AI Agent with Gemini (Search + Weather Tools)
 
-This project demonstrates how to use Google Gemini with LangChain to build an AI agent that can:
-Run prompts using Gemini LLM
-Perform web search using DuckDuckGo
-Fetch weather data using OpenWeatherMap
-Build tool-using AI agents
-Extend into RAG and vector database systems
+AI Agent is a tool-enabled intelligent assistant built using Google Gemini and LangChain.
+This project demonstrates how to combine a large language model with external tools such as web search and weather APIs to build an agent capable of retrieving real-time information and reasoning over it.
 
-Tech Stack
 
-LLM: Google Gemini
-Framework: LangChain
-Search Tool: DuckDuckGo
-Weather API: OpenWeatherMap
-Language: Python
+Project Overview
+
+The AI agent is designed to:
+
+Answer general knowledge questions
+Perform live web searches
+Retrieve real-time weather information
+Combine tool outputs with LLM reasoning
+Demonstrate agent-based AI architecture
+
+The agent dynamically decides when to use external tools and when to generate responses directly.
+
